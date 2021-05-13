@@ -7,3 +7,5 @@
 5. download and extract kali_setup.zip
 6. s3scanner aws configure
 7. burp suite
+8. firefox settings
+9. OS settings
