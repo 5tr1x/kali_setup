@@ -100,3 +100,6 @@ apt update && apt full-upgrade -y
 apt install $LIST -y
 
 pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu
+
+mkdir -p /usr/local/go/src
+mkdir -p /usr/local/go/bin
