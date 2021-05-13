@@ -84,6 +84,7 @@ crackmapexec
 theharvester
 recon-ng
 flameshot
+dirsearch
 
 
 
@@ -111,7 +112,6 @@ windapsearch
 assetfinder
 httprobe
 subfinder
-dirsearch
 subjack
 enum4linux-ng
 kerbrute
