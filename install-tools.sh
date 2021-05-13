@@ -89,6 +89,7 @@ crackmapexec
 theharvester
 recon-ng
 flameshot
+dirsearch
 
 )
 
