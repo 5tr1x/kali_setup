@@ -129,3 +129,22 @@ cd
 
 mkdir -p /opt/tools
 cd /opt/tools/
+
+git clone https://github.com/SecureAuthCorp/impacket
+cd impacket/
+pip3 install .
+
+git clone https://github.com/projectdiscovery/nuclei-templates
+nuclei -ud /opt/tools/nuclei-templates/ -ut
+
+git clone https://github.com/Ganapati/RsaCtfTool.git
+apt install libgmp3-dev libmpc-dev -y
+cd RsaCtfTool/
+pip3 install -r requirements.txt
+cd ..
+
+mkdir ysoserial
+cd ysoserial/
+wget https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-master-SNAPSHOT.jar
+mv ysoserial-master-SNAPSHOT.jar ysoserial.jar
+cd ..
