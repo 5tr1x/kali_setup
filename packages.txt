@@ -98,6 +98,7 @@ pwntools
 ropper
 uncompyle6
 pacu
+s3scanner
 
 
 
@@ -123,8 +124,6 @@ lnkup
 naabu
 nuclei
 favfreak
-s3scanner
-go-dork
 gowitness
 wraith
 ssrfmap
