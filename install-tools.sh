@@ -164,6 +164,17 @@ cd ..
 git clone https://github.com/swisskyrepo/SSRFmap
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
 
+git clone https://github.com/ticarpi/jwt_tool
+pip3 install cprint
+chmod +x jwt_tool/jwt_tool.py
+ln -s /opt/tools/jwt_tool/jwt_tool.py /usr/local/bin/jwt_tool
+
+mkdir bloodhound
+cd bloodhound/
+wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
+wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.ps1
+wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe
+
 cd
 
 # /USR/LOCAL/BIN
