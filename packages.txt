@@ -141,7 +141,8 @@ burp suite
 
 # FILES #
 
-opt - tools winrm
+/opt
+/opt/tools/winrm/winrm.rb
 bookmarks
 addons
 wallpaper
