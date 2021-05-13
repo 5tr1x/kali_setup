@@ -160,3 +160,6 @@ cd ysoserial/
 wget https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-master-SNAPSHOT.jar
 mv ysoserial-master-SNAPSHOT.jar ysoserial.jar
 cd ..
+
+git clone https://github.com/swisskyrepo/SSRFmap
+cd ..
