@@ -4,7 +4,7 @@
 2. change root password
 3. chsh /bin/bash
 4. run install-tools.sh
-5. download and extract kali_setup.zip
+5. download and extract kali_setup.7z
 6. s3scanner aws configure
 7. burp suite
 8. firefox settings
