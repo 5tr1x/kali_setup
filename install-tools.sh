@@ -190,4 +190,13 @@ wget https://github.com/cddmp/enum4linux-ng/raw/master/enum4linux-ng.py
 mv enum4linux-ng.py enum4linux-ng
 chmod +x enum4linux-ng
 
+wget https://github.com/0x0000dd/subinfo/raw/main/subinfo
+chmod +x subinfo
+wget https://github.com/0x0000dd/p0rtscan/raw/main/p0rtscan
+chmod +x p0rtscan
+wget https://github.com/0x0000dd/xssthief/raw/main/xssthief
+chmod +x xssthief
+wget https://github.com/0x0000dd/tvdecrypt/raw/main/tvdecrypt
+chmod +x tvdecrypt
+
 cd
