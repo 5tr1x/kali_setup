@@ -103,7 +103,7 @@ apt install $LIST -y
 
 # PIP
 
-pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu
+pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu s3scanner
 
 # GO
 
