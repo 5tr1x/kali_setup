@@ -142,7 +142,7 @@ burp 2020.4
 
 # FILES #
 
-opt
+opt - tools winrm
 bookmarks
 addons
 wallpaper
