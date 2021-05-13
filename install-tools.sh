@@ -132,6 +132,10 @@ https://github.com/N0MoreSecr3ts/wraith
 cd wraith/
 make build
 cd
+mkdir .wraith
+cd .wraith/
+git clone https://github.com/N0MoreSecr3ts/wraith-signatures
+cd
 
 # OPT
 
