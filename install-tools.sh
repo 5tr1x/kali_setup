@@ -162,6 +162,7 @@ mv ysoserial-master-SNAPSHOT.jar ysoserial.jar
 cd ..
 
 git clone https://github.com/swisskyrepo/SSRFmap
+git clone https://github.com/danielbohannon/Invoke-Obfuscation
 
 cd
 
