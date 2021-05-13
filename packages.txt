@@ -128,6 +128,8 @@ gowitness
 wraith
 ssrfmap
 invoke-obfuscation
+bloodhound collectors
+jwt_tool
 
 
 
@@ -141,8 +143,7 @@ burp suite
 
 # FILES #
 
-/opt
-/opt/tools/winrm/winrm.rb
+opt
 bookmarks
 addons
 wallpaper
