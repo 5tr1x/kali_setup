@@ -135,7 +135,7 @@ invoke-obfuscation
 
 gef
 evil-winrm
-burp 2020.4
+burp suite
 
 
 
