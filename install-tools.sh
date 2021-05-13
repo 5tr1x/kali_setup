@@ -1,5 +1,8 @@
 #!/bin/bash
 
+echo '[*] STARTING'
+echo ''
+
 # APT
 
 apt_tools=(
@@ -219,3 +222,6 @@ wget -O ~/.gdbinit-gef.py -q http://gef.blah.cat/py
 echo source ~/.gdbinit-gef.py >> ~/.gdbinit
 
 gem install evil-winrm
+
+rm null.txt
+echo '[*] DONE'
