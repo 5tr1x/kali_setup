@@ -223,5 +223,8 @@ echo source ~/.gdbinit-gef.py >> ~/.gdbinit
 
 gem install evil-winrm
 
-rm null.txt
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+python get-pip.py
+rm get-pip.py null.txt
+
 echo '[*] DONE'
