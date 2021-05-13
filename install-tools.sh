@@ -116,3 +116,5 @@ go get -u github.com/tomnomnom/httprobe
 GO111MODULE=on go get github.com/projectdiscovery/subfinder/v2/cmd/subfinder
 GO111MODULE=on go get github.com/projectdiscovery/naabu/v2/cmd/naabu
 GO111MODULE=on go get github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+go get github.com/haccer/subjack
+go get github.com/ropnop/kerbrute
