@@ -227,4 +227,5 @@ wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python get-pip.py
 rm get-pip.py null.txt
 
+echo ''
 echo '[*] DONE'
