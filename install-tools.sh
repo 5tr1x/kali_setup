@@ -126,6 +126,11 @@ chmod +x windapsearch
 wget https://github.com/sensepost/gowitness/releases/download/2.3.4/gowitness-2.3.4-linux-amd64
 mv gowitness-2.3.4-linux-amd64 gowitness
 chmod +x gowitness
+
+cd /usr/local/go/src/github.com/
+https://github.com/N0MoreSecr3ts/wraith
+cd wraith/
+make build
 cd
 
 # OPT
