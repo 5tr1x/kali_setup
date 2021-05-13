@@ -155,6 +155,7 @@ bashrc
 tun0
 subjack fingerprints
 amass config
+wraith config
 odat wordlists
 smb.conf (client min protocol = NT1)
 
