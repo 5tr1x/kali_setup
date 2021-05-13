@@ -200,3 +200,11 @@ wget https://github.com/0x0000dd/tvdecrypt/raw/main/tvdecrypt
 chmod +x tvdecrypt
 
 cd
+
+# OTHER
+
+pip3 install keystone-engine
+wget -O ~/.gdbinit-gef.py -q http://gef.blah.cat/py
+echo source ~/.gdbinit-gef.py >> ~/.gdbinit
+
+gem install evil-winrm
