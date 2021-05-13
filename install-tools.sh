@@ -1,6 +1,6 @@
 #!/bin/bash
 
-tool_list=(
+apt_tools=(
 
 metasploit-framework
 john
@@ -92,7 +92,7 @@ flameshot
 
 )
 
-LIST=$(for i in ${tool_list[@]}; do echo -n $i && echo -n ' '; done)
+LIST=$(for i in ${apt_tools[@]}; do echo -n $i && echo -n ' '; done)
 
 apt update && apt full-upgrade -y
 
