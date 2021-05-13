@@ -6,3 +6,4 @@
 4. run install-tools.sh
 5. download and extract kali_setup.zip
 6. s3scanner aws configure
+7. burp suite
