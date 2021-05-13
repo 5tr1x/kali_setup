@@ -97,3 +97,5 @@ LIST=$(for i in ${apt_tools[@]}; do echo -n $i && echo -n ' '; done)
 apt update && apt full-upgrade -y
 
 apt install $LIST -y
+
+pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu
