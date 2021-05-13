@@ -118,6 +118,7 @@ GO111MODULE=on go get github.com/projectdiscovery/naabu/v2/cmd/naabu
 GO111MODULE=on go get github.com/projectdiscovery/nuclei/v2/cmd/nuclei
 go get github.com/haccer/subjack
 go get github.com/ropnop/kerbrute
+go get -u github.com/sensepost/gowitness
 
 cd /usr/local/go/bin/
 wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
