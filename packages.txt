@@ -143,10 +143,12 @@ burp suite
 
 # FILES #
 
-opt
-bookmarks
-addons
 wallpaper
+bookmarks
+ublock
+wappalyzer
+foxyproxy
+opt
 ghostcat.py
 vncbypass.py
 heartbleed.py
