@@ -107,9 +107,9 @@ pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pac
 
 # GO
 
-apt install libpcap-dev -y
 mkdir -p /usr/local/go/src
 mkdir -p /usr/local/go/bin
+apt install libpcap-dev -y
 
 go get -u github.com/tomnomnom/assetfinder
 go get -u github.com/tomnomnom/httprobe
