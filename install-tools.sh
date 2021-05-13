@@ -162,6 +162,7 @@ mv ysoserial-master-SNAPSHOT.jar ysoserial.jar
 cd ..
 
 git clone https://github.com/swisskyrepo/SSRFmap
+
 cd
 
 # /USR/LOCAL/BIN
@@ -183,3 +184,9 @@ chmod +x wordlister
 wget https://github.com/manulqwerty/Evil-WinRAR-Gen/raw/master/evilWinRAR.py
 mv evilWinRAR.py evilWinRAR
 chmod +x evilWinRAR
+
+wget https://github.com/cddmp/enum4linux-ng/raw/master/enum4linux-ng.py
+mv enum4linux-ng.py enum4linux-ng
+chmod +x enum4linux-ng
+
+cd
