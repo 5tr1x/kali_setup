@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# APT
+
 apt_tools=(
 
 metasploit-framework
@@ -99,7 +101,18 @@ apt update && apt full-upgrade -y
 
 apt install $LIST -y
 
+# PIP
+
 pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu
 
+# GO
+
+apt install libpcap-dev -y
 mkdir -p /usr/local/go/src
 mkdir -p /usr/local/go/bin
+
+go get -u github.com/tomnomnom/assetfinder
+go get -u github.com/tomnomnom/httprobe
+GO111MODULE=on go get github.com/projectdiscovery/subfinder/v2/cmd/subfinder
+GO111MODULE=on go get github.com/projectdiscovery/naabu/v2/cmd/naabu
+GO111MODULE=on go get github.com/projectdiscovery/nuclei/v2/cmd/nuclei
