@@ -137,7 +137,7 @@ cd .wraith/
 git clone https://github.com/N0MoreSecr3ts/wraith-signatures
 cd
 
-# OPT
+# /OPT
 
 mkdir -p /opt/tools
 cd /opt/tools/
@@ -162,4 +162,24 @@ mv ysoserial-master-SNAPSHOT.jar ysoserial.jar
 cd ..
 
 git clone https://github.com/swisskyrepo/SSRFmap
-cd ..
+cd
+
+# /USR/LOCAL/BIN
+
+cd /usr/local/bin/
+pip3 install mmh3 acefile
+
+wget https://github.com/devanshbatham/FavFreak/raw/master/favfreak.py
+chmod +x favfreak.py
+
+wget https://github.com/Plazmaz/LNKUp/raw/master/generate.py
+echo '#!/usr/bin/python3' | cat - generate.py > lnkup.py && rm generate.py
+chmod +x lnkup.py
+
+wget https://github.com/4n4nk3/Wordlister/raw/master/wordlister.py
+mv wordlister.py wordlister
+chmod +x wordlister
+
+wget https://github.com/manulqwerty/Evil-WinRAR-Gen/raw/master/evilWinRAR.py
+mv evilWinRAR.py evilWinRAR
+chmod +x evilWinRAR
