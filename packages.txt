@@ -87,11 +87,25 @@ flameshot
 
 
 
+# PIP #
+
+bloodhound-python
+pypykatz
+droopescan
+mitm6
+pwntools
+ropper
+uncompyle6
+pacu
+
+
+
 # GITHUB #
 
 subinfo
 p0rtscan
 xssthief
+tvdecrypt
 impacket
 windapsearch
 assetfinder
@@ -120,17 +134,9 @@ invoke-obfuscation
 
 # OTHER #
 
-burp 2020.4
-evil-winrm
 gef
-bloodhound-python
-pypykatz
-droopescan
-mitm6
-pwntools
-ropper
-uncompyle6
-pacu
+evil-winrm
+burp 2020.4
 
 
 
