@@ -112,6 +112,10 @@ pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pac
 
 mkdir -p /usr/local/go/src
 mkdir -p /usr/local/go/bin
+echo 'export PATH=$PATH:/usr/local/go/bin' >> .bashrc
+echo 'export GOPATH=/usr/local/go' >> .bashrc
+. .bashrc
+
 apt install libpcap-dev -y
 
 go get -u github.com/tomnomnom/assetfinder
