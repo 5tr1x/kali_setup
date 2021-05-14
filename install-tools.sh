@@ -174,8 +174,11 @@ git clone https://github.com/danielbohannon/Invoke-Obfuscation
 
 git clone https://github.com/ticarpi/jwt_tool
 pip3 install cprint
-chmod +x jwt_tool/jwt_tool.py
+cd jwt_tool
+chmod +x jwt_tool.py
 ln -s /opt/tools/jwt_tool/jwt_tool.py /usr/local/bin/jwt_tool
+jwt_tool
+cd ..
 
 mkdir bloodhound
 cd bloodhound/
