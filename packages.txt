@@ -137,8 +137,8 @@ jwt_tool
 
 gef
 evil-winrm
-burp suite
 pip2
+burp suite
 
 
 
