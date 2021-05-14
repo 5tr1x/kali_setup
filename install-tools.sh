@@ -112,9 +112,8 @@ pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pac
 
 mkdir -p /usr/local/go/src
 mkdir -p /usr/local/go/bin
-echo 'export PATH=$PATH:/usr/local/go/bin' >> .bashrc
-echo 'export GOPATH=/usr/local/go' >> .bashrc
-. .bashrc
+export PATH=$PATH:/usr/local/go/bin
+export GOPATH=/usr/local/go
 
 apt install libpcap-dev -y
 
@@ -135,7 +134,7 @@ mv gowitness-2.3.4-linux-amd64 gowitness
 chmod +x gowitness
 
 cd /usr/local/go/src/github.com/
-https://github.com/N0MoreSecr3ts/wraith
+git clone https://github.com/N0MoreSecr3ts/wraith
 cd wraith/
 make build
 cd
