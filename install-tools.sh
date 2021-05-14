@@ -2,6 +2,7 @@
 
 echo '[*] STARTING'
 echo ''
+sleep 3
 
 # APT
 
@@ -233,5 +234,6 @@ rm get-pip.py
 
 apt autoremove -y
 
+sleep 3
 echo ''
 echo '[*] DONE'
