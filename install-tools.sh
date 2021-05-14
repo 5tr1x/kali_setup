@@ -151,6 +151,7 @@ cd /opt/tools/
 git clone https://github.com/SecureAuthCorp/impacket
 cd impacket/
 pip3 install .
+cd ..
 
 git clone https://github.com/projectdiscovery/nuclei-templates
 nuclei -ud /opt/tools/nuclei-templates/ -ut
@@ -228,7 +229,9 @@ gem install evil-winrm
 
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python get-pip.py
-rm get-pip.py null.txt
+rm get-pip.py
+
+apt autoremove -y
 
 echo ''
 echo '[*] DONE'
