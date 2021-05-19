@@ -105,6 +105,9 @@ apt update && apt full-upgrade -y
 
 apt install $LIST -y
 
+download-mibs
+sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
+
 # PIP
 
 pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu s3scanner
