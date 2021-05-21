@@ -130,7 +130,6 @@ ssrfmap
 invoke-obfuscation
 bloodhound collectors
 jwt_tool
-adrecon.ps1
 
 
 
