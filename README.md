@@ -7,6 +7,7 @@
 5. download and extract kali_setup.7z
 6. run setup.sh
 7. s3scanner aws configure
-8. burp suite
-9. firefox settings
-10. OS settings
+8. proxychains.conf
+9. burp suite
+10. firefox settings
+11. OS settings
