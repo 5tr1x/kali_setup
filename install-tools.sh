@@ -96,6 +96,7 @@ theharvester
 recon-ng
 flameshot
 dirsearch
+sendemail
 
 )
 
