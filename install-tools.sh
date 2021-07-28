@@ -97,6 +97,7 @@ recon-ng
 flameshot
 dirsearch
 sendemail
+wafw00f
 
 )
 
