@@ -98,6 +98,7 @@ flameshot
 dirsearch
 sendemail
 wafw00f
+rsh-client
 
 )
 
