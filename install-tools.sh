@@ -178,6 +178,7 @@ cd ..
 
 git clone https://github.com/swisskyrepo/SSRFmap
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
+git clone https://github.com/dirkjanm/krbrelayx
 
 git clone https://github.com/ticarpi/jwt_tool
 pip3 install cprint
