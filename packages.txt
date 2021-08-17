@@ -134,6 +134,7 @@ invoke-obfuscation
 bloodhound collectors
 jwt_tool
 nextnet
+krbrelayx
 
 
 
