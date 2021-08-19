@@ -102,6 +102,7 @@ ropper
 uncompyle6
 pacu
 s3scanner
+pywerview
 
 
 
@@ -135,6 +136,7 @@ bloodhound collectors
 jwt_tool
 nextnet
 krbrelayx
+gmsadumper
 
 
 
