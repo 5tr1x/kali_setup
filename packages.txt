@@ -103,6 +103,7 @@ uncompyle6
 pacu
 s3scanner
 pywerview
+git-dumper
 
 
 
