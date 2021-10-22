@@ -181,6 +181,7 @@ git clone https://github.com/danielbohannon/Invoke-Obfuscation
 git clone https://github.com/dirkjanm/krbrelayx
 git clone https://github.com/ambionics/phpggc
 git clone https://github.com/0ang3el/aem-hacker
+git clone https://github.com/sensepost/reGeorg
 
 git clone https://github.com/ticarpi/jwt_tool
 pip3 install cprint
