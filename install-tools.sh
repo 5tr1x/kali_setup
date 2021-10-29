@@ -99,6 +99,7 @@ dirsearch
 sendemail
 wafw00f
 rsh-client
+hashcat
 
 )
 
