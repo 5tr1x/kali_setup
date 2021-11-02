@@ -192,6 +192,9 @@ ln -s /opt/tools/jwt_tool/jwt_tool.py /usr/local/bin/jwt_tool
 jwt_tool
 cd ..
 
+git clone https://github.com/epinna/tplmap
+ln -s /opt/tools/tplmap/tplmap.py /usr/local/bin/tplmap
+
 mkdir bloodhound
 cd bloodhound/
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
