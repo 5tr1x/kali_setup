@@ -177,7 +177,6 @@ wget https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-m
 mv ysoserial-master-SNAPSHOT.jar ysoserial.jar
 cd ..
 
-git clone https://github.com/swisskyrepo/SSRFmap
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
 git clone https://github.com/dirkjanm/krbrelayx
 git clone https://github.com/ambionics/phpggc
@@ -190,6 +189,13 @@ cd jwt_tool
 chmod +x jwt_tool.py
 ln -s /opt/tools/jwt_tool/jwt_tool.py /usr/local/bin/jwt_tool
 jwt_tool
+cd ..
+
+git clone https://github.com/swisskyrepo/SSRFmap
+cd SSRFmap/
+tail -n +2 ssrfmap.py > temp.py && echo '#!/usr/bin/python3' | cat - temp.py > ssrfmap.py && rm temp.py
+chmod +x ssrfmap.py
+ln -s /opt/tools/SSRFmap/ssrfmap.py /usr/local/bin/ssrfmap
 cd ..
 
 git clone https://github.com/epinna/tplmap
