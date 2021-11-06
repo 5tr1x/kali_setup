@@ -100,6 +100,7 @@ sendemail
 wafw00f
 rsh-client
 hashcat
+chromium
 
 )
 
