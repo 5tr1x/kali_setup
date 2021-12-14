@@ -202,6 +202,9 @@ cd ..
 git clone https://github.com/epinna/tplmap
 ln -s /opt/tools/tplmap/tplmap.py /usr/local/bin/tplmap
 
+git clone https://github.com/fullhunt/log4j-scan
+ln -s /opt/tools/log4j-scan/log4j-scan.py /usr/local/bin/log4j-scan
+
 mkdir bloodhound
 cd bloodhound/
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
