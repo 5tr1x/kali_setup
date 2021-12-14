@@ -147,6 +147,7 @@ gp-saml-gui
 gophish
 regeorg
 tplmap
+log4j-scan
 
 
 
