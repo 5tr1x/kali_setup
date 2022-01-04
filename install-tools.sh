@@ -172,10 +172,9 @@ cd RsaCtfTool/
 pip3 install -r requirements.txt
 cd ..
 
-mkdir ysoserial
-cd ysoserial/
+mkdir java_tools
+cd java_tools/
 wget https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-master-SNAPSHOT.jar
-mv ysoserial-master-SNAPSHOT.jar ysoserial.jar
 cd ..
 
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
