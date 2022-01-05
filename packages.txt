@@ -177,6 +177,7 @@ samba-22
 samba-symlnk
 tmux
 bashrc
+0xdd
 tun0
 subjack fingerprints
 amass config
