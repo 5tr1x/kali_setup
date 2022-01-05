@@ -211,6 +211,13 @@ chmod +x noPac.py
 ln -s /opt/tools/sam-the-admin/noPac.py /usr/local/bin/noPac.py
 cd ..
 
+git clone https://github.com/codingo/NoSQLMap
+cd NoSQLMap/
+python setup.py install
+ln -s /opt/tools/NoSQLMap/nosqlmap.py /usr/local/bin/nosqlmap
+rm /usr/local/bin/NoSQLMap
+cd ..
+
 mkdir bloodhound
 cd bloodhound/
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
