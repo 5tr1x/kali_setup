@@ -250,6 +250,9 @@ wget https://github.com/cddmp/enum4linux-ng/raw/master/enum4linux-ng.py
 mv enum4linux-ng.py enum4linux-ng
 chmod +x enum4linux-ng
 
+wget https://github.com/ShutdownRepo/ShadowCoerce/raw/main/shadowcoerce.py
+chmod +x shadowcoerce.py
+
 wget https://github.com/0x0000dd/subinfo/raw/main/subinfo
 chmod +x subinfo
 wget https://github.com/0x0000dd/p0rtscan/raw/main/p0rtscan
