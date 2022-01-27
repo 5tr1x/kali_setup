@@ -149,6 +149,7 @@ regeorg
 tplmap
 log4j-scan
 sam-the-admin
+shadowcoerce
 
 
 
