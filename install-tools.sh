@@ -218,6 +218,11 @@ ln -s /opt/tools/NoSQLMap/nosqlmap.py /usr/local/bin/nosqlmap
 rm /usr/local/bin/NoSQLMap
 cd ..
 
+git clone https://github.com/ly4k/Certipy
+cd Certipy/
+python3 setup.py install
+cd ..
+
 mkdir bloodhound
 cd bloodhound/
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
