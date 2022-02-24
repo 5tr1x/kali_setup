@@ -261,6 +261,9 @@ chmod +x enum4linux-ng
 wget https://github.com/ShutdownRepo/ShadowCoerce/raw/main/shadowcoerce.py
 chmod +x shadowcoerce.py
 
+curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
+chmod +x kubectl
+
 wget https://github.com/0x0000dd/subinfo/raw/main/subinfo
 chmod +x subinfo
 wget https://github.com/0x0000dd/p0rtscan/raw/main/p0rtscan
