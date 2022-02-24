@@ -142,6 +142,9 @@ chmod +x windapsearch
 wget https://github.com/sensepost/gowitness/releases/download/2.3.4/gowitness-2.3.4-linux-amd64
 mv gowitness-2.3.4-linux-amd64 gowitness
 chmod +x gowitness
+wget https://github.com/cyberark/kubeletctl/releases/download/v1.8/kubeletctl_linux_amd64
+mv kubeletctl_linux_amd64 kubeletctl
+chmod +x kubeletctl
 
 cd /usr/local/go/src/github.com/
 git clone https://github.com/N0MoreSecr3ts/wraith
