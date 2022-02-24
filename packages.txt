@@ -161,6 +161,7 @@ gef
 evil-winrm
 pip2
 burp suite
+kubectl
 
 
 
