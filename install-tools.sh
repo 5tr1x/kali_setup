@@ -177,6 +177,7 @@ cd ..
 mkdir java_tools
 cd java_tools/
 wget https://jitpack.io/com/github/frohoff/ysoserial/master-SNAPSHOT/ysoserial-master-SNAPSHOT.jar
+wget https://github.com/pimps/JNDI-Exploit-Kit/raw/master/target/JNDI-Exploit-Kit-1.0-SNAPSHOT-all.jar
 cd ..
 
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
