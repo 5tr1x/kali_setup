@@ -80,7 +80,6 @@ atftp
 powershell-empire
 smtp-user-enum
 awscli
-crackmapexec
 theharvester
 recon-ng
 flameshot
@@ -106,6 +105,7 @@ pacu
 s3scanner
 pywerview
 git-dumper
+crackmapexec
 
 
 
