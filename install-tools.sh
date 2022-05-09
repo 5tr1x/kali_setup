@@ -91,7 +91,6 @@ atftp
 powershell-empire
 smtp-user-enum
 awscli
-crackmapexec
 theharvester
 recon-ng
 flameshot
@@ -115,7 +114,7 @@ sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
 
 # PIP
 
-pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu s3scanner pywerview git-dumper
+pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu s3scanner pywerview git-dumper crackmapexec
 
 # GO
 
