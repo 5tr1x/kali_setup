@@ -127,9 +127,9 @@ apt install libpcap-dev -y
 
 go get -u github.com/tomnomnom/assetfinder
 go get -u github.com/tomnomnom/httprobe
-GO111MODULE=on go get github.com/projectdiscovery/subfinder/v2/cmd/subfinder
-GO111MODULE=on go get github.com/projectdiscovery/naabu/v2/cmd/naabu
-GO111MODULE=on go get github.com/projectdiscovery/nuclei/v2/cmd/nuclei
+go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
+go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
+go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 go get github.com/haccer/subjack
 go get github.com/ropnop/kerbrute
 go get github.com/hdm/nextnet
@@ -138,8 +138,8 @@ cd /usr/local/go/bin/
 wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
 mv windapsearch-linux-amd64 windapsearch
 chmod +x windapsearch
-wget https://github.com/sensepost/gowitness/releases/download/2.3.4/gowitness-2.3.4-linux-amd64
-mv gowitness-2.3.4-linux-amd64 gowitness
+wget https://github.com/sensepost/gowitness/releases/download/2.3.4/gowitness-2.3.6-linux-amd64
+mv gowitness-2.3.6-linux-amd64 gowitness
 chmod +x gowitness
 wget https://github.com/cyberark/kubeletctl/releases/download/v1.8/kubeletctl_linux_amd64
 mv kubeletctl_linux_amd64 kubeletctl
@@ -228,7 +228,6 @@ cd ..
 mkdir bloodhound
 cd bloodhound/
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
-wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.ps1
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe
 
 cd
