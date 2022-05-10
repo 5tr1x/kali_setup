@@ -185,7 +185,6 @@ wget https://github.com/pimps/JNDI-Exploit-Kit/raw/master/target/JNDI-Exploit-Ki
 cd ..
 
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
-git clone https://github.com/dirkjanm/krbrelayx
 git clone https://github.com/ambionics/phpggc
 git clone https://github.com/sensepost/reGeorg
 
@@ -194,6 +193,13 @@ cd aem-hacker/
 for i in `ls aem_*`; do for j in `ls aem_* | wc -l`; do echo '#!/usr/bin/python3' | cat - $i > t$j.py && mv t$j.py $i; done; done
 chmod +x aem_*
 for i in `ls aem_*`; do ln -s /opt/tools/aem-hacker/$i /usr/local/bin/$i; done
+cd ..
+
+git clone https://github.com/dirkjanm/krbrelayx
+cd krbrelayx/
+for i in `ls *.py`; do for j in `ls *.py | wc -l`; do echo '#!/usr/bin/python3' | cat - $i > t$j.py && mv t$j.py $i; done; done
+chmod +x *.py
+for i in `ls *.py`; do ln -s /opt/tools/krbrelayx/$i /usr/local/bin/$i; done
 cd ..
 
 git clone https://github.com/ticarpi/jwt_tool
