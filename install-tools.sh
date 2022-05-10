@@ -185,7 +185,6 @@ wget https://github.com/pimps/JNDI-Exploit-Kit/raw/master/target/JNDI-Exploit-Ki
 cd ..
 
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
-git clone https://github.com/ambionics/phpggc
 git clone https://github.com/sensepost/reGeorg
 
 git clone https://github.com/0ang3el/aem-hacker
@@ -225,6 +224,9 @@ cd ..
 
 git clone https://github.com/epinna/tplmap
 ln -s /opt/tools/tplmap/tplmap.py /usr/local/bin/tplmap
+
+git clone https://github.com/ambionics/phpggc
+ln -s /opt/tools/phpggc/phpggc /usr/local/bin/phpgcc
 
 git clone https://github.com/fullhunt/log4j-scan
 ln -s /opt/tools/log4j-scan/log4j-scan.py /usr/local/bin/log4j-scan
