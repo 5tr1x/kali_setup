@@ -207,6 +207,7 @@ cd ..
 git clone https://github.com/joaomatosf/jexboss
 cd jexboss/
 pip2 install -r requires.txt
+ln -s /opt/tools/jexboss/jexboss.py /usr/local/bin/jexboss
 cd ..
 
 git clone https://github.com/swisskyrepo/SSRFmap
