@@ -114,7 +114,11 @@ sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
 
 # PIP
 
-pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu s3scanner pywerview git-dumper crackmapexec
+pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu s3scanner pywerview git-dumper crackmapexec keystone-engine
+
+wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+python get-pip.py
+rm get-pip.py
 
 # GO
 
@@ -198,6 +202,11 @@ cd jwt_tool
 chmod +x jwt_tool.py
 ln -s /opt/tools/jwt_tool/jwt_tool.py /usr/local/bin/jwt_tool
 jwt_tool
+cd ..
+
+git clone https://github.com/joaomatosf/jexboss
+cd jexboss/
+pip2 install -r requires.txt
 cd ..
 
 git clone https://github.com/swisskyrepo/SSRFmap
@@ -295,15 +304,10 @@ cd
 
 # OTHER
 
-pip3 install keystone-engine
 wget -O ~/.gdbinit-gef.py -q http://gef.blah.cat/py
 echo source ~/.gdbinit-gef.py >> ~/.gdbinit
 
 gem install evil-winrm
-
-wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
-python get-pip.py
-rm get-pip.py
 
 apt autoremove -y
 
