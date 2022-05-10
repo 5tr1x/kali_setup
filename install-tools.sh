@@ -306,6 +306,9 @@ chmod +x shadowcoerce.py
 wget https://github.com/ShutdownRepo/pywhisker/raw/main/pywhisker.py
 chmod +x pywhisker.py
 
+wget https://github.com/ShutdownRepo/smartbrute/raw/main/smartbrute.py
+chmod +x smartbrute.py
+
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 
