@@ -183,8 +183,14 @@ cd ..
 git clone https://github.com/danielbohannon/Invoke-Obfuscation
 git clone https://github.com/dirkjanm/krbrelayx
 git clone https://github.com/ambionics/phpggc
-git clone https://github.com/0ang3el/aem-hacker
 git clone https://github.com/sensepost/reGeorg
+
+git clone https://github.com/0ang3el/aem-hacker
+cd aem-hacker/
+for i in `ls aem_*`; do for j in `ls aem_* | wc -l`; do echo '#!/usr/bin/python3' | cat - $i > t$j.py && mv t$j.py $i; done; done
+chmod +x aem_*
+for i in `ls aem_*`; do ln -s /opt/tools/aem-hacker/$i /usr/local/bin/$i; done
+cd ..
 
 git clone https://github.com/ticarpi/jwt_tool
 pip3 install cprint
