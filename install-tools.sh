@@ -280,6 +280,14 @@ wget https://github.com/topotam/PetitPotam/raw/main/PetitPotam.py
 tail -n +8 PetitPotam.py > petitTemp.py && echo '#!/usr/bin/python3' | cat - petitTemp.py > petitpotam.py && rm PetitPotam.py petitTemp.py
 chmod +x petitpotam.py
 
+wget https://github.com/ktecv2000/ProxyShell/raw/main/exploit.py
+echo '#!/usr/bin/python3' | cat - exploit.py > proxyshell.py && rm exploit.py
+chmod +x proxyshell.py
+
+wget https://github.com/hausec/ProxyLogon/raw/main/proxylogon.py -O pl.py
+echo '#!/usr/bin/python3' | cat - pl.py > proxylogon.py && rm pl.py
+chmod +x proxylogon.py
+
 wget https://github.com/4n4nk3/Wordlister/raw/master/wordlister.py
 mv wordlister.py wordlister
 chmod +x wordlister
