@@ -158,6 +158,7 @@ jexboss
 proxyshell
 proxylogon
 pywhisker
+smartbrute
 
 
 
