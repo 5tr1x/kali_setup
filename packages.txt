@@ -159,6 +159,7 @@ proxyshell
 proxylogon
 pywhisker
 smartbrute
+targetedkerberoast
 
 
 
