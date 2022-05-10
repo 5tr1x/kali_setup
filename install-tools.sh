@@ -260,6 +260,10 @@ wget https://github.com/Plazmaz/LNKUp/raw/master/generate.py
 echo '#!/usr/bin/python3' | cat - generate.py > lnkup.py && rm generate.py
 chmod +x lnkup.py
 
+wget https://github.com/topotam/PetitPotam/raw/main/PetitPotam.py
+tail -n +8 PetitPotam.py > petitTemp.py && echo '#!/usr/bin/python3' | cat - petitTemp.py > petitpotam.py && rm PetitPotam.py petitTemp.py
+chmod +x petitpotam.py
+
 wget https://github.com/4n4nk3/Wordlister/raw/master/wordlister.py
 mv wordlister.py wordlister
 chmod +x wordlister
