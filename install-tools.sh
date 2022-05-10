@@ -303,6 +303,9 @@ chmod +x enum4linux-ng
 wget https://github.com/ShutdownRepo/ShadowCoerce/raw/main/shadowcoerce.py
 chmod +x shadowcoerce.py
 
+wget https://github.com/ShutdownRepo/pywhisker/raw/main/pywhisker.py
+chmod +x pywhisker.py
+
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 
