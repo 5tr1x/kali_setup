@@ -191,6 +191,7 @@ tmux
 bashrc
 0xdd
 tun0
+aws
 subjack fingerprints
 amass config
 wraith config
