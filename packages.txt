@@ -180,7 +180,6 @@ ublock
 wappalyzer
 foxyproxy
 opt
-sharphound.ps1
 jndi-exploit
 ghostcat.py
 vncbypass.py
