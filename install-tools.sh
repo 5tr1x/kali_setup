@@ -257,6 +257,7 @@ mkdir bloodhound
 cd bloodhound/
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe
+wget https://github.com/puckiestyle/powershell/raw/master/SharpHound.ps1
 cd ..
 
 mkdir sliver
