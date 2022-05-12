@@ -180,7 +180,6 @@ ublock
 wappalyzer
 foxyproxy
 opt
-jndi-exploit
 ghostcat.py
 vncbypass.py
 heartbleed.py
@@ -195,7 +194,7 @@ subjack fingerprints
 amass config
 wraith config
 odat wordlists
-smb.conf (client min protocol = NT1)
+smb.conf
 
 
 
