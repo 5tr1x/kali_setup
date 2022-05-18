@@ -101,6 +101,7 @@ rsh-client
 hashcat
 chromium
 jadx
+radare2
 
 )
 
