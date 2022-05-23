@@ -91,6 +91,7 @@ hashcat
 chromium
 jadx
 radare2
+ghidra
 
 
 
@@ -161,6 +162,7 @@ proxylogon
 pywhisker
 smartbrute
 targetedkerberoast
+ghidra-dark
 
 
 
