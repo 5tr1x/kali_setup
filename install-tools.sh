@@ -102,6 +102,7 @@ hashcat
 chromium
 jadx
 radare2
+ghidra
 
 )
 
@@ -253,6 +254,11 @@ cd ..
 git clone https://github.com/ly4k/Certipy
 cd Certipy/
 python3 setup.py install
+cd ..
+
+git clone https://github.com/zackelia/ghidra-dark
+cd ghidra-dark/
+python3 install.py --path /usr/share/ghidra/
 cd ..
 
 mkdir bloodhound
