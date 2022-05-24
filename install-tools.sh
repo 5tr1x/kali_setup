@@ -326,6 +326,10 @@ chmod +x smartbrute.py
 wget https://github.com/ShutdownRepo/targetedKerberoast/raw/main/targetedKerberoast.py
 chmod +x targetedKerberoast.py
 
+wget https://github.com/n00py/LAPSDumper/raw/main/laps.py
+mv laps.py lapsdumper.py
+chmod +x lapsdumper.py
+
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 
