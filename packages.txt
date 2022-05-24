@@ -163,6 +163,7 @@ pywhisker
 smartbrute
 targetedkerberoast
 ghidra-dark
+lapsdumper
 
 
 
