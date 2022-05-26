@@ -330,6 +330,10 @@ wget https://github.com/n00py/LAPSDumper/raw/main/laps.py
 mv laps.py lapsdumper.py
 chmod +x lapsdumper.py
 
+wget https://github.com/micahvandeusen/gMSADumper/raw/main/gMSADumper.py
+mv gMSADumper.py gmsadumper.py
+chmod +x gmsadumper.py
+
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 
