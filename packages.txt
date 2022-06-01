@@ -198,7 +198,7 @@ amass config
 wraith config
 odat wordlists
 smb.conf
-
+proxychains.conf
 
 
 
