@@ -119,7 +119,7 @@ sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
 
 pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 pacu s3scanner pywerview git-dumper crackmapexec keystone-engine
 
-apt install python3-gi gir1.2-gtk-3.0 gir1.2-webkit2-4.0
+apt install python3-gi gir1.2-gtk-3.0 gir1.2-webkit2-4.0 -y
 pip3 install https://github.com/dlenski/gp-saml-gui/archive/master.zip
 
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
@@ -140,6 +140,7 @@ go get -u github.com/tomnomnom/httprobe
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+go install github.com/sensepost/gowitness@latest
 go get github.com/haccer/subjack
 go get github.com/ropnop/kerbrute
 go get github.com/hdm/nextnet
@@ -148,9 +149,6 @@ cd /usr/local/go/bin/
 wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
 mv windapsearch-linux-amd64 windapsearch
 chmod +x windapsearch
-wget https://github.com/sensepost/gowitness/releases/download/2.3.4/gowitness-2.3.6-linux-amd64
-mv gowitness-2.3.6-linux-amd64 gowitness
-chmod +x gowitness
 wget https://github.com/cyberark/kubeletctl/releases/download/v1.8/kubeletctl_linux_amd64
 mv kubeletctl_linux_amd64 kubeletctl
 chmod +x kubeletctl
