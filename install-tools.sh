@@ -135,15 +135,15 @@ export GOPATH=/usr/local/go
 
 apt install libpcap-dev -y
 
-go get -u github.com/tomnomnom/assetfinder
-go get -u github.com/tomnomnom/httprobe
+go install github.com/tomnomnom/assetfinder@latest
+go install github.com/tomnomnom/httprobe@latest
 go install -v github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install -v github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
 go install -v github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
 go install github.com/sensepost/gowitness@latest
-go get github.com/haccer/subjack
-go get github.com/ropnop/kerbrute
-go get github.com/hdm/nextnet
+go install github.com/haccer/subjack@latest
+go install github.com/ropnop/kerbrute@latest
+go install github.com/hdm/nextnet@latest
 
 cd /usr/local/go/bin/
 wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
