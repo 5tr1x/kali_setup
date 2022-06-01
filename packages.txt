@@ -104,7 +104,6 @@ mitm6
 pwntools
 ropper
 uncompyle6
-pacu
 s3scanner
 pywerview
 git-dumper
