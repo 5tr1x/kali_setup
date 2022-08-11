@@ -145,6 +145,7 @@ go install github.com/sensepost/gowitness@latest
 go install github.com/haccer/subjack@latest
 go install github.com/ropnop/kerbrute@latest
 go install github.com/hdm/nextnet@latest
+go install github.com/ffuf/ffuf@latest
 
 cd /usr/local/go/bin/
 wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
