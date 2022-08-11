@@ -162,6 +162,7 @@ smartbrute
 targetedkerberoast
 ghidra-dark
 lapsdumper
+ffuf
 
 
 
