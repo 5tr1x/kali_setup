@@ -334,6 +334,13 @@ wget https://github.com/micahvandeusen/gMSADumper/raw/main/gMSADumper.py
 mv gMSADumper.py gmsadumper.py
 chmod +x gmsadumper.py
 
+wget https://raw.githubusercontent.com/Wh04m1001/DFSCoerce/main/dfscoerce.py
+chmod +x dfscoerce.py
+
+wget https://raw.githubusercontent.com/roughiz/lfito_rce/master/lfito_rce.py
+mv lfito_rce.py lfi2rce.py
+chmod +x lfi2rce.py
+
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 
