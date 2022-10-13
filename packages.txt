@@ -163,6 +163,8 @@ targetedkerberoast
 ghidra-dark
 lapsdumper
 ffuf
+dfscoerce
+lfito_rce
 
 
 
