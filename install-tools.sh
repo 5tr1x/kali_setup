@@ -122,10 +122,10 @@ pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 s3s
 apt install python3-gi gir1.2-gtk-3.0 gir1.2-webkit2-4.0 -y
 pip3 install https://github.com/dlenski/gp-saml-gui/archive/master.zip
 
+apt install python2-minimal
 wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
 python2 get-pip.py
 rm get-pip.py
-ln -s /usr/bin/python2 /usr/bin/python
 
 # GO
 
