@@ -341,6 +341,10 @@ wget https://raw.githubusercontent.com/roughiz/lfito_rce/master/lfito_rce.py
 mv lfito_rce.py lfi2rce.py
 chmod +x lfi2rce.py
 
+wget https://github.com/Bdenneu/CVE-2022-33679/raw/main/CVE-2022-33679.py
+echo '#!/usr/bin/python3' | cat - CVE-2022-33679.py > krb-rc4.py && rm CVE-2022-33679.py
+chmod +x krb-rc4.py
+
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 
