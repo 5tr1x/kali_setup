@@ -105,7 +105,6 @@ pwntools
 ropper
 uncompyle6
 s3scanner
-pywerview
 git-dumper
 crackmapexec
 
