@@ -341,6 +341,9 @@ wget https://raw.githubusercontent.com/roughiz/lfito_rce/master/lfito_rce.py
 mv lfito_rce.py lfi2rce.py
 chmod +x lfi2rce.py
 
+wget https://raw.githubusercontent.com/synacktiv/php_filter_chain_generator/main/php_filter_chain_generator.py
+chmod +x php_filter_chain_generator.py
+
 wget https://github.com/Bdenneu/CVE-2022-33679/raw/main/CVE-2022-33679.py
 echo '#!/usr/bin/python3' | cat - CVE-2022-33679.py > krb-rc4.py && rm CVE-2022-33679.py
 chmod +x krb-rc4.py
