@@ -136,7 +136,7 @@ export GOPATH=/usr/local/go
 
 apt install libpcap-dev -y
 
-go install github.com/tomnomnom/httprobe@master
+go install github.com/tomnomnom/httprobe@latest
 go install github.com/tomnomnom/assetfinder@latest
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
