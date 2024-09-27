@@ -261,6 +261,11 @@ cd ghidra-dark/
 python3 install.py --path /usr/share/ghidra/
 cd ..
 
+git clone https://github.com/strayge/pylnk
+cd pylnk/
+python3 setup.py install
+cd ..
+
 mkdir bloodhound
 cd bloodhound/
 wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
@@ -288,6 +293,7 @@ chmod +x favfreak.py
 
 wget https://github.com/Plazmaz/LNKUp/raw/master/generate.py
 echo '#!/usr/bin/python3' | cat - generate.py > lnkup.py && rm generate.py
+sed -ie 's/pylnk/pylnk3/g' lnkup.py
 chmod +x lnkup.py
 
 wget https://github.com/topotam/PetitPotam/raw/main/PetitPotam.py
