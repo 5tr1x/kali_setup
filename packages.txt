@@ -165,6 +165,7 @@ ffuf
 dfscoerce
 lfito_rce
 php_filter_chain_generator
+trufflehog
 
 
 
