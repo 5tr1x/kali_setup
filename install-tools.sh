@@ -103,6 +103,8 @@ chromium
 jadx
 radare2
 ghidra
+netexec
+crackmapexec
 
 )
 
@@ -117,7 +119,7 @@ sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
 
 # PIP
 
-pip3 install bloodhound pypykatz droopescan mitm6 pwntools ropper uncompyle6 s3scanner git-dumper crackmapexec keystone-engine
+pip3 install pypykatz droopescan mitm6 pwntools ropper uncompyle6 s3scanner git-dumper keystone-engine
 
 apt install python3-gi gir1.2-gtk-3.0 gir1.2-webkit2-4.0 -y
 pip3 install https://github.com/dlenski/gp-saml-gui/archive/master.zip
