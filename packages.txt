@@ -92,12 +92,13 @@ chromium
 jadx
 radare2
 ghidra
+netexec
+bloodhound.py
 
 
 
 # PIP #
 
-bloodhound-python
 pypykatz
 droopescan
 mitm6
