@@ -93,7 +93,7 @@ jadx
 radare2
 ghidra
 netexec
-bloodhound.py
+crackmapexec
 
 
 
@@ -107,7 +107,6 @@ ropper
 uncompyle6
 s3scanner
 git-dumper
-crackmapexec
 
 
 
