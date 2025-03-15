@@ -54,6 +54,7 @@ fcrackzip
 cewl
 crunch
 bloodhound
+bloodhound.py
 sqlite3
 knockd
 finger
@@ -271,9 +272,10 @@ cd ..
 
 mkdir bloodhound
 cd bloodhound/
-wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/AzureHound.ps1
-wget https://github.com/BloodHoundAD/BloodHound/raw/master/Collectors/SharpHound.exe
-wget https://github.com/puckiestyle/powershell/raw/master/SharpHound.ps1
+wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.exe
+mv SharpHound.exe sharphound-legacy.exe
+wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.ps1
+mv SharpHound.ps1 sharphound-legacy.ps1
 cd ..
 
 mkdir sliver
