@@ -161,13 +161,13 @@ pywhisker
 smartbrute
 targetedkerberoast
 ghidra-dark
+pyLAPS
 lapsdumper
 ffuf
 dfscoerce
 lfito_rce
 php_filter_chain_generator
 trufflehog
-pyLAPS
 
 
 
