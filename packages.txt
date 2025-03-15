@@ -138,7 +138,6 @@ gowitness
 wraith
 ssrfmap
 invoke-obfuscation
-bloodhound collectors
 jwt_tool
 nextnet
 krbrelayx
@@ -169,6 +168,7 @@ dfscoerce
 lfito_rce
 php_filter_chain_generator
 trufflehog
+bloodhound collectors
 
 
 
@@ -179,6 +179,7 @@ evil-winrm
 pip2
 burp suite
 kubectl
+bloodhound-ce
 
 
 
