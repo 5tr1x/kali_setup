@@ -37,6 +37,7 @@ snmpcheck
 onesixtyone
 nikto
 davtest
+cadaver
 padbuster
 fcrackzip
 cewl
@@ -166,6 +167,7 @@ dfscoerce
 lfito_rce
 php_filter_chain_generator
 trufflehog
+pyLAPS
 
 
 
