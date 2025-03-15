@@ -48,6 +48,7 @@ snmpcheck
 onesixtyone
 nikto
 davtest
+cadaver
 padbuster
 fcrackzip
 cewl
@@ -333,6 +334,9 @@ chmod +x smartbrute.py
 
 wget https://github.com/ShutdownRepo/targetedKerberoast/raw/main/targetedKerberoast.py
 chmod +x targetedKerberoast.py
+
+wget https://github.com/p0dalirius/pyLAPS/raw/refs/heads/main/pyLAPS.py
+chmod +x pyLAPS.py
 
 wget https://github.com/n00py/LAPSDumper/raw/main/laps.py
 mv laps.py lapsdumper.py
