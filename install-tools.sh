@@ -290,6 +290,13 @@ rm azurehound-windows-amd64.zip
 mv azurehound.exe azurehound-ce.exe
 chmod 644 azurehound-ce.exe
 cd ..
+git clone https://github.com/dirkjanm/BloodHound.py
+cd BloodHound.py/
+git checkout bloodhound-ce
+tail -n +2 bloodhound.py > temp.py && echo '#!/usr/bin/python3' | cat - temp.py > bloodhound.py && rm temp.py
+chmod +x bloodhound.py
+ln -s /opt/tools/bloodhound/BloodHound.py/bloodhound.py /usr/local/bin/bloodhound-ce-python
+cd ..
 curl -s -L https://ghst.ly/getbhce > docker-compose.yml
 curl -s -L https://github.com/SpecterOps/BloodHound/raw/refs/heads/main/examples/docker-compose/.env.example > .env
 sed -i 's/BLOODHOUND_PORT=8080/BLOODHOUND_PORT=7080/' .env
@@ -408,9 +415,9 @@ echo ''
 cd /opt/tools/bloodhound/
 docker-compose pull && docker-compose up -d
 sleep 3
-docker-compose logs --no-color | grep -B2 -A2 "Initial Password"
+initialpass=$(docker-compose logs --no-color | grep "Initial Password" | cut -f12 -d ' ')
 echo ''
-echo '[!] initial setup - localhost:7080 user:admin pass:<xxxxxx>'
+echo "[!] initial setup - localhost:7080 user:admin pass:$initialpass"
 echo ''
 echo '[!] when finished - run <docker-compose down> from /opt/tools/bloodhound/'
 sleep 3
