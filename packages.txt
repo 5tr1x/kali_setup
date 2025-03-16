@@ -43,7 +43,7 @@ fcrackzip
 cewl
 crunch
 bloodhound
-bloodhound.py
+bloodhound-python
 sqlite3
 knockd
 finger
@@ -169,6 +169,7 @@ dfscoerce
 lfito_rce
 php_filter_chain_generator
 trufflehog
+bloodhound-ce-python
 bloodhound collectors
 
 
