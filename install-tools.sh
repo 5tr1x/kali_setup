@@ -123,6 +123,8 @@ sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
 
 # PIP
 
+python3 -m pip config set global.break-system-packages true
+
 pip3 install pypykatz droopescan mitm6 pwntools ropper uncompyle6 s3scanner git-dumper keystone-engine
 
 apt install python3-gi gir1.2-gtk-3.0 gir1.2-webkit2-4.0 -y
