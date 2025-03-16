@@ -412,6 +412,7 @@ echo '[!] config changes - like setting web ui port to 7080 instead of 8080'
 echo ''
 echo '[!] when finished - run <docker-compose down> from /opt/tools/bloodhound/ + systemctl stop containerd.service'
 sleep 3
+systemctl disable containerd.service
 echo ''
 echo '[*] DONE'
 echo ''
