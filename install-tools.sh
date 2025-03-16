@@ -107,6 +107,7 @@ radare2
 ghidra
 netexec
 crackmapexec
+docker-compose
 
 )
 
