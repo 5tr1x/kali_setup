@@ -417,7 +417,7 @@ docker-compose pull && docker-compose up -d
 sleep 3
 initialpass=$(docker-compose logs --no-color | grep "Initial Password" | cut -f12 -d ' ')
 echo ''
-echo "[!] initial setup - localhost:7080 user:admin pass:$initialpass"
+echo "[!] initial setup - localhost:7080 user:admin pass:$initialpass newpass:Bl00dhound0!"
 echo ''
 echo '[!] when finished - run <docker-compose down> from /opt/tools/bloodhound/'
 sleep 3
