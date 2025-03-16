@@ -278,6 +278,15 @@ wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Colle
 mv SharpHound.exe sharphound-legacy.exe
 wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.ps1
 mv SharpHound.ps1 sharphound-legacy.ps1
+wget https://github.com/SpecterOps/SharpHound/releases/download/v2.6.1/SharpHound-v2.6.1.zip
+unzip SharpHound-v2.6.1.zip
+rm SharpHound.exe.config SharpHound.pdb SharpHound-v2.6.1.zip
+mv SharpHound.exe sharphound-ce.exe && mv SharpHound.ps1 sharphound-ce.ps1
+wget https://github.com/SpecterOps/AzureHound/releases/download/v2.3.0/azurehound-windows-amd64.zip
+unzip azurehound-windows-amd64.zip
+rm azurehound-windows-amd64.zip
+mv azurehound.exe azurehound-ce.exe
+chmod 644 azurehound-ce.exe
 cd ..
 curl -L https://ghst.ly/getbhce > ./docker-compose.yml
 cd ..
