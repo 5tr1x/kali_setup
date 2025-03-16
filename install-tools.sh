@@ -401,16 +401,19 @@ apt autoremove -y
 echo ''
 echo '[!] setting up bloodhound-ce'
 echo ''
-sleep 3
 cd /opt/tools/bloodhound/
 docker-compose pull && docker-compose up -d
-docker-compose logs | grep -B2 -A2 "Initial Password"
+sleep 5
+docker-compose logs --no-color | grep -B2 -A2 "Initial Password" > tmp_pass
+cat tmp_pass
+rm tmp_pass
 echo ''
-echo '[!] localhost:8080 user:admin pass:<xxxxxx>'
+echo '[!] initial setup - localhost:8080 user:admin pass:<xxxxxx>'
 echo ''
-sleep 3
-echo '[!] run <docker-compose down> from /opt/tools/bloodhound/ when finished - may need to make config changes after (like setting web ui port to 7080 instead of 8080)'
-sleep 3
+echo '[!] config changes - like setting web ui port to 7080 instead of 8080'
+echo ''
+echo '[!] when finished - run <docker-compose down> from /opt/tools/bloodhound/ + systemctl stop containerd.service'
+sleep 5
 echo ''
 echo '[*] DONE'
 echo ''
