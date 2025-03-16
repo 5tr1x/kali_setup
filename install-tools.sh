@@ -1,5 +1,6 @@
 #!/bin/bash
 
+echo ''
 echo '[*] STARTING'
 echo ''
 sleep 3
@@ -272,7 +273,7 @@ python3 setup.py install
 cd ..
 
 mkdir -p bloodhound/collectors
-cd bloodhound/collectors
+cd bloodhound/collectors/
 wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.exe
 mv SharpHound.exe sharphound-legacy.exe
 wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.ps1
@@ -388,6 +389,19 @@ gem install evil-winrm
 
 apt autoremove -y
 
+echo ''
+echo '[!] setting up bloodhound-ce'
+echo ''
+sleep 3
+cd /opt/tools/bloodhound/
+docker-compose pull && docker-compose up -d
+docker-compose logs | grep -B2 -A2 "Initial Password"
+echo ''
+echo '[!] localhost:8080 user:admin pass:<xxx>'
+echo ''
+sleep 3
+echo '[!] run <docker-compose down> from /opt/tools/bloodhound/ when finished - may need to make config changes after'
 sleep 3
 echo ''
 echo '[*] DONE'
+echo ''
