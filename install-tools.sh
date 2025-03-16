@@ -406,10 +406,10 @@ cd /opt/tools/bloodhound/
 docker-compose pull && docker-compose up -d
 docker-compose logs | grep -B2 -A2 "Initial Password"
 echo ''
-echo '[!] localhost:8080 user:admin pass:<xxx>'
+echo '[!] localhost:8080 user:admin pass:<xxxxxx>'
 echo ''
 sleep 3
-echo '[!] run <docker-compose down> from /opt/tools/bloodhound/ when finished - may need to make config changes after'
+echo '[!] run <docker-compose down> from /opt/tools/bloodhound/ when finished - may need to make config changes after (like setting web ui port to 7080 instead of 8080)'
 sleep 3
 echo ''
 echo '[*] DONE'
