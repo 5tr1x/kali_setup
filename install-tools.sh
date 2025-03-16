@@ -288,7 +288,9 @@ rm azurehound-windows-amd64.zip
 mv azurehound.exe azurehound-ce.exe
 chmod 644 azurehound-ce.exe
 cd ..
-curl -L https://ghst.ly/getbhce > ./docker-compose.yml
+curl -s -L https://ghst.ly/getbhce > docker-compose.yml
+curl -s -L https://github.com/SpecterOps/BloodHound/raw/refs/heads/main/examples/docker-compose/.env.example > .env
+sed -i 's/BLOODHOUND_PORT=8080/BLOODHOUND_PORT=7080/' .env
 cd ..
 
 mkdir sliver
@@ -399,20 +401,18 @@ gem install evil-winrm
 apt autoremove -y
 
 echo ''
-echo '[!] setting up bloodhound-ce'
+echo '[!] configuring bloodhound-ce'
 echo ''
 cd /opt/tools/bloodhound/
 docker-compose pull && docker-compose up -d
 sleep 3
 docker-compose logs --no-color | grep -B2 -A2 "Initial Password"
 echo ''
-echo '[!] initial setup - localhost:8080 user:admin pass:<xxxxxx>'
+echo '[!] initial setup - localhost:7080 user:admin pass:<xxxxxx>'
 echo ''
-echo '[!] config changes - like setting web ui port to 7080 instead of 8080'
-echo ''
-echo '[!] when finished - run <docker-compose down> from /opt/tools/bloodhound/ + systemctl stop containerd.service'
+echo '[!] when finished - run <docker-compose down> from /opt/tools/bloodhound/'
 sleep 3
-systemctl disable containerd.service
+cd
 echo ''
 echo '[*] DONE'
 echo ''
