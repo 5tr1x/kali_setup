@@ -270,12 +270,14 @@ cd pylnk/
 python3 setup.py install
 cd ..
 
-mkdir bloodhound
-cd bloodhound/
+mkdir -p bloodhound/collectors
+cd bloodhound/collectors
 wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.exe
 mv SharpHound.exe sharphound-legacy.exe
 wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.ps1
 mv SharpHound.ps1 sharphound-legacy.ps1
+cd ..
+curl -L https://ghst.ly/getbhce > ./docker-compose.yml
 cd ..
 
 mkdir sliver
