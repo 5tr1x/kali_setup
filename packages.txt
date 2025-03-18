@@ -171,6 +171,7 @@ php_filter_chain_generator
 trufflehog
 bloodhound-ce-python
 bloodhound collectors
+unicorn
 
 
 
