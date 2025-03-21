@@ -109,6 +109,8 @@ ghidra
 netexec
 crackmapexec
 docker-compose
+python3-impacket
+certipy-ad
 
 )
 
