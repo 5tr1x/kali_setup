@@ -172,6 +172,7 @@ trufflehog
 bloodhound-ce-python
 bloodhound collectors
 unicorn
+pkinittools
 
 
 
