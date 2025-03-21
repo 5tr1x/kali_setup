@@ -178,11 +178,6 @@ cd
 mkdir -p /opt/tools
 cd /opt/tools/
 
-git clone https://github.com/SecureAuthCorp/impacket
-cd impacket/
-pip3 install .
-cd ..
-
 git clone https://github.com/projectdiscovery/nuclei-templates
 nuclei -ud /opt/tools/nuclei-templates/ -ut
 
@@ -257,11 +252,6 @@ cd NoSQLMap/
 python setup.py install
 ln -s /opt/tools/NoSQLMap/nosqlmap.py /usr/local/bin/nosqlmap
 rm /usr/local/bin/NoSQLMap
-cd ..
-
-git clone https://github.com/ly4k/Certipy
-cd Certipy/
-python3 setup.py install
 cd ..
 
 git clone https://github.com/zackelia/ghidra-dark
