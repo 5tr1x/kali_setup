@@ -161,7 +161,6 @@ proxylogon
 pywhisker
 smartbrute
 targetedkerberoast
-ghidra-dark
 pyLAPS
 lapsdumper
 ffuf
