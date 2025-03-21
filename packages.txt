@@ -97,6 +97,7 @@ ghidra
 netexec
 crackmapexec
 docker-compose
+python3-impacket
 certipy-ad
 
 
@@ -120,7 +121,6 @@ subinfo
 p0rtscan
 xssthief
 tvdecrypt
-impacket
 windapsearch
 assetfinder
 httprobe
