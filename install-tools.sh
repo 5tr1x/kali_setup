@@ -257,11 +257,6 @@ ln -s /opt/tools/NoSQLMap/nosqlmap.py /usr/local/bin/nosqlmap
 rm /usr/local/bin/NoSQLMap
 cd ..
 
-git clone https://github.com/zackelia/ghidra-dark
-cd ghidra-dark/
-python3 install.py --path /usr/share/ghidra/
-cd ..
-
 git clone https://github.com/strayge/pylnk
 cd pylnk/
 python3 setup.py install
