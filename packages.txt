@@ -97,6 +97,7 @@ ghidra
 netexec
 crackmapexec
 docker-compose
+certipy-ad
 
 
 
@@ -151,7 +152,6 @@ tplmap
 log4j-scan
 sam-the-admin
 shadowcoerce
-certipy
 kubeletctl
 sliver
 petitpotam
