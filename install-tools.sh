@@ -368,6 +368,16 @@ chmod +x gmsadumper.py
 wget https://raw.githubusercontent.com/Wh04m1001/DFSCoerce/main/dfscoerce.py
 chmod +x dfscoerce.py
 
+wget https://github.com/dirkjanm/PKINITtools/raw/refs/heads/master/getnthash.py
+tail -n +2 getnthash.py > temp.py && echo '#!/usr/bin/python3' | cat - temp.py > getnthash.py && rm temp.py
+chmod +x getnthash.py
+
+wget https://github.com/dirkjanm/PKINITtools/raw/refs/heads/master/gets4uticket.py
+chmod +x gets4uticket.py
+
+wget https://github.com/dirkjanm/PKINITtools/raw/refs/heads/master/gettgtpkinit.py
+chmod +x gettgtpkinit.py
+
 wget https://raw.githubusercontent.com/roughiz/lfito_rce/master/lfito_rce.py
 mv lfito_rce.py lfi2rce.py
 chmod +x lfi2rce.py
