@@ -181,7 +181,8 @@ mkdir -p /opt/tools
 cd /opt/tools/
 
 git clone https://github.com/projectdiscovery/nuclei-templates
-nuclei -ud /opt/tools/nuclei-templates/ -ut
+mv nuclei-templates/ NT/
+nuclei -ud /opt/tools/NT/ -ut
 
 git clone https://github.com/Ganapati/RsaCtfTool.git
 apt install libgmp3-dev libmpc-dev -y
