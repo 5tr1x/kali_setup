@@ -120,6 +120,8 @@ apt update && apt full-upgrade -y
 
 apt install $LIST -y
 
+ln -s /usr/bin/theHarvester /usr/local/bin/theharvester
+
 download-mibs
 sed -e '/mibs/ s/^#*/#/' -i /etc/snmp/snmp.conf
 
