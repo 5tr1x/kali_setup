@@ -125,6 +125,7 @@ windapsearch
 assetfinder
 httprobe
 subfinder
+tldfinder
 subjack
 enum4linux-ng
 kerbrute
