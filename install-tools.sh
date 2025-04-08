@@ -397,14 +397,18 @@ chmod +x krb-rc4.py
 curl -LO "https://dl.k8s.io/release/$(curl -L -s https://dl.k8s.io/release/stable.txt)/bin/linux/amd64/kubectl"
 chmod +x kubectl
 
-wget https://github.com/0x0000dd/subinfo/raw/main/subinfo
+wget https://github.com/5tr1x/subinfo/raw/main/subinfo
 chmod +x subinfo
-wget https://github.com/0x0000dd/p0rtscan/raw/main/p0rtscan
+wget https://github.com/5tr1x/p0rtscan/raw/main/p0rtscan
 chmod +x p0rtscan
-wget https://github.com/0x0000dd/xssthief/raw/main/xssthief
+wget https://github.com/5tr1x/xssthief/raw/main/xssthief
 chmod +x xssthief
-wget https://github.com/0x0000dd/tvdecrypt/raw/main/tvdecrypt
+wget https://github.com/5tr1x/tvdecrypt/raw/main/tvdecrypt
 chmod +x tvdecrypt
+wget https://raw.githubusercontent.com/5tr1x/misc_bash/refs/heads/main/smbcheck
+chmod +x smbcheck
+wget https://raw.githubusercontent.com/5tr1x/misc_bash/refs/heads/main/password-permutator
+chmod +x password-permutator
 
 cd
 
