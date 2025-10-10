@@ -275,10 +275,6 @@ tail -n +2 bloodhound.py > temp.py && echo '#!/usr/bin/python3' | cat - temp.py 
 chmod +x bloodhound.py
 ln -s /opt/tools/bloodhound/BloodHound.py/bloodhound.py /usr/local/bin/bloodhound.py
 cd ../..
-curl -s -L https://ghst.ly/getbhce > docker-compose.yml
-curl -s -L https://github.com/SpecterOps/BloodHound/raw/refs/heads/main/examples/docker-compose/.env.example > .env
-sed -i 's/BLOODHOUND_PORT=8080/BLOODHOUND_PORT=7080/' .env
-cd ..
 
 mkdir sliver
 cd sliver/
@@ -409,18 +405,18 @@ gem install evil-winrm
 apt autoremove -y
 
 echo ''
-echo '[!] configuring bloodhound-ce'
+echo '[!] NEED TO CONFIGURE BLOODHOUND'
 echo ''
-cd /opt/tools/bloodhound/
-docker-compose pull && docker-compose up -d
 sleep 3
-initialpass=$(docker-compose logs --no-color | grep "Initial Password" | cut -f12 -d ' ')
+echo '[!] run <./bloodhound-cli install> from /opt/tools/bloodhound/'
 echo ''
-echo "[!] initial setup - localhost:7080 user:admin pass:$initialpass newpass:Bl00dhound0!"
+sleep 3
+echo '[!] change password and move .env file to /root/.config/bloodhound/'
 echo ''
-echo '[!] when finished - run <docker-compose down> from /opt/tools/bloodhound/'
+sleep 3
+echo '[!] download collectors and make sure alias is working'
+echo ''
 sleep 3
 cd
-echo ''
 echo '[*] DONE'
 echo ''
