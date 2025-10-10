@@ -263,29 +263,18 @@ cd pylnk/
 python3 setup.py install
 cd ..
 
-mkdir -p bloodhound/collectors
-cd bloodhound/collectors/
-wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.exe
-mv SharpHound.exe sharphound-legacy.exe
-wget https://github.com/SpecterOps/BloodHound-Legacy/raw/refs/heads/master/Collectors/SharpHound.ps1
-mv SharpHound.ps1 sharphound-legacy.ps1
-wget https://github.com/SpecterOps/SharpHound/releases/download/v2.6.1/SharpHound-v2.6.1.zip
-unzip SharpHound-v2.6.1.zip
-rm SharpHound.exe.config SharpHound.pdb SharpHound-v2.6.1.zip
-mv SharpHound.exe sharphound-ce.exe && mv SharpHound.ps1 sharphound-ce.ps1
-wget https://github.com/SpecterOps/AzureHound/releases/download/v2.3.0/azurehound-windows-amd64.zip
-unzip azurehound-windows-amd64.zip
-rm azurehound-windows-amd64.zip
-mv azurehound.exe azurehound-ce.exe
-chmod 644 azurehound-ce.exe
-cd ..
+mkdir bloodhound
+cd bloodhound/
+wget https://github.com/SpecterOps/bloodhound-cli/releases/latest/download/bloodhound-cli-linux-amd64.tar.gz
+tar -xvzf bloodhound-cli-linux-amd64.tar.gz
+rm bloodhound-cli-linux-amd64.tar.gz
 git clone https://github.com/dirkjanm/BloodHound.py
 cd BloodHound.py/
 git checkout bloodhound-ce
 tail -n +2 bloodhound.py > temp.py && echo '#!/usr/bin/python3' | cat - temp.py > bloodhound.py && rm temp.py
 chmod +x bloodhound.py
-ln -s /opt/tools/bloodhound/BloodHound.py/bloodhound.py /usr/local/bin/bloodhound-ce-python
-cd ..
+ln -s /opt/tools/bloodhound/BloodHound.py/bloodhound.py /usr/local/bin/bloodhound.py
+cd ../..
 curl -s -L https://ghst.ly/getbhce > docker-compose.yml
 curl -s -L https://github.com/SpecterOps/BloodHound/raw/refs/heads/main/examples/docker-compose/.env.example > .env
 sed -i 's/BLOODHOUND_PORT=8080/BLOODHOUND_PORT=7080/' .env
