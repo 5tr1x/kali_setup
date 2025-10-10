@@ -6,6 +6,7 @@
 4. run install-tools.sh
 5. download and extract kali_setup.7z
 6. run setup.sh
-7. burp suite
-8. firefox settings
-9. OS settings
+7. bloodhound
+8. burp suite
+9. firefox settings
+10. OS settings
