@@ -54,8 +54,6 @@ padbuster
 fcrackzip
 cewl
 crunch
-bloodhound
-bloodhound.py
 sqlite3
 knockd
 finger
