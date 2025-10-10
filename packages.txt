@@ -178,11 +178,11 @@ password-permutator
 # OTHER #
 
 gef
-evil-winrm
 pip2
-burp suite
 kubectl
+evil-winrm
 bloodhound
+burp suite
 
 
 
