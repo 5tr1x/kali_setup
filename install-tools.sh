@@ -263,7 +263,7 @@ cd pylnk/
 python3 setup.py install
 cd ..
 
-mkdir bloodhound
+mkdir -p bloodhound/collectors
 cd bloodhound/
 wget https://github.com/SpecterOps/bloodhound-cli/releases/latest/download/bloodhound-cli-linux-amd64.tar.gz
 tar -xvzf bloodhound-cli-linux-amd64.tar.gz
