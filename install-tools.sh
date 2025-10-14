@@ -363,6 +363,10 @@ wget https://raw.githubusercontent.com/roughiz/lfito_rce/master/lfito_rce.py
 mv lfito_rce.py lfi2rce.py
 chmod +x lfi2rce.py
 
+wget https://raw.githubusercontent.com/assetnote/hopgoblin/refs/heads/main/hopgoblin.py
+echo '#!/usr/bin/python3' | cat - hopgoblin.py > aem-hopgoblin.py && rm hopgoblin.py
+chmod +x aem-hopgoblin.py
+
 wget https://github.com/trustedsec/unicorn/raw/refs/heads/master/unicorn.py
 mv unicorn.py unicorn
 chmod +x unicorn 
