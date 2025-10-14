@@ -144,7 +144,6 @@ nextnet
 krbrelayx
 gmsadumper
 phpgcc
-hopgoblin
 aem-hacker
 gp-saml-gui
 regeorg
