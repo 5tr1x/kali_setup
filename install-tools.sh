@@ -258,6 +258,11 @@ ln -s /opt/tools/NoSQLMap/nosqlmap.py /usr/local/bin/nosqlmap
 rm /usr/local/bin/NoSQLMap
 cd ..
 
+git clone https://github.com/lobuhi/byp4xx
+go build byp4xx.go
+ln -s /opt/tools/byp4xx/byp4xx /usr/local/bin/byp4xx
+cd ..
+
 git clone https://github.com/strayge/pylnk
 cd pylnk/
 python3 setup.py install
