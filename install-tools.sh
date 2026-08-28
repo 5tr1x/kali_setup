@@ -259,6 +259,7 @@ rm /usr/local/bin/NoSQLMap
 cd ..
 
 git clone https://github.com/lobuhi/byp4xx
+cd byp4xx/
 go build byp4xx.go
 ln -s /opt/tools/byp4xx/byp4xx /usr/local/bin/byp4xx
 cd ..
