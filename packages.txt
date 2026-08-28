@@ -173,6 +173,7 @@ donut-maker
 smbcheck
 password-permutator
 byp4xx
+rusthound-ce
 
 
 
