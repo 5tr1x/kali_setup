@@ -172,6 +172,7 @@ pkinittools
 donut-maker
 smbcheck
 password-permutator
+byp4xx
 
 
 
