@@ -109,6 +109,7 @@ crackmapexec
 docker-compose
 python3-impacket
 certipy-ad
+bloodyad
 
 )
 
