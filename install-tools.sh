@@ -404,6 +404,9 @@ cd
 
 # OTHER
 
+wget https://github.com/dracula/xfce4-terminal/releases/download/1.2/Dracula.theme
+mv Dracula.theme /usr/share/xfce4/terminal/colorschemes/
+
 wget -O ~/.gdbinit-gef.py -q http://gef.blah.cat/py
 echo source ~/.gdbinit-gef.py >> ~/.gdbinit
 
