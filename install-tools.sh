@@ -285,11 +285,11 @@ cd ../..
 
 mkdir sliver
 cd sliver/
-wget $(curl -s "https://api.github.com/repos/BishopFox/sliver/releases/latest" | awk -F '"' '/browser_download_url/{print $4}' | grep sliver-client_linux | grep -v sig)
-wget $(curl -s "https://api.github.com/repos/BishopFox/sliver/releases/latest" | awk -F '"' '/browser_download_url/{print $4}' | grep sliver-server_linux | grep -v sig)
+wget $(curl -s "https://api.github.com/repos/BishopFox/sliver/releases/latest" | awk -F '"' '/browser_download_url/{print $4}' | grep sliver-client_linux-amd64 | grep -v sig)
+wget $(curl -s "https://api.github.com/repos/BishopFox/sliver/releases/latest" | awk -F '"' '/browser_download_url/{print $4}' | grep sliver-server_linux-amd64 | grep -v sig)
 chmod +x sliver-*
-ln -s /opt/tools/sliver/sliver-client_linux /usr/local/bin/sliver-client
-ln -s /opt/tools/sliver/sliver-server_linux /usr/local/bin/sliver-server
+ln -s /opt/tools/sliver/sliver-client_linux-amd64 /usr/local/bin/sliver-client
+ln -s /opt/tools/sliver/sliver-server_linux-amd64 /usr/local/bin/sliver-server
 
 cd
 
