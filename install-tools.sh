@@ -15,6 +15,7 @@ nmap
 hydra
 responder
 wireshark
+golang
 sqlmap
 wfuzz
 gobuster
@@ -27,7 +28,6 @@ vim
 rusers
 whois
 dnsrecon
-golang
 xfce4-terminal
 python3-pip
 wpscan
