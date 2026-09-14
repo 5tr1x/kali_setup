@@ -107,6 +107,7 @@ ghidra
 netexec
 docker-compose
 python3-impacket
+evil-winrm-py
 certipy-ad
 bloodyad
 
@@ -337,7 +338,7 @@ chmod +x enum4linux-ng
 wget https://github.com/ShutdownRepo/ShadowCoerce/raw/main/shadowcoerce.py
 chmod +x shadowcoerce.py
 
-wget https://github.com/ShutdownRepo/pywhisker/raw/main/pywhisker.py
+https://github.com/ShutdownRepo/pywhisker/raw/refs/heads/main/pywhisker/pywhisker.py
 chmod +x pywhisker.py
 
 wget https://github.com/ShutdownRepo/smartbrute/raw/main/smartbrute.py
