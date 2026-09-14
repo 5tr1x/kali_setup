@@ -151,7 +151,7 @@ go install github.com/tomnomnom/assetfinder@latest
 go install github.com/projectdiscovery/subfinder/v2/cmd/subfinder@latest
 go install github.com/projectdiscovery/tldfinder/cmd/tldfinder@latest
 go install github.com/projectdiscovery/naabu/v2/cmd/naabu@latest
-go install github.com/projectdiscovery/nuclei/v2/cmd/nuclei@latest
+go install github.com/projectdiscovery/nuclei/v3/cmd/nuclei@latest
 go install github.com/sensepost/gowitness@latest
 go install github.com/haccer/subjack@latest
 go install github.com/ropnop/kerbrute@latest
