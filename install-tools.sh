@@ -162,7 +162,7 @@ cd /usr/local/go/bin/
 wget https://github.com/ropnop/go-windapsearch/releases/download/v0.3.0/windapsearch-linux-amd64
 mv windapsearch-linux-amd64 windapsearch
 chmod +x windapsearch
-wget https://github.com/cyberark/kubeletctl/releases/download/v1.8/kubeletctl_linux_amd64
+wget https://github.com/cyberark/kubeletctl/releases/download/v1.13/kubeletctl_linux_amd64
 mv kubeletctl_linux_amd64 kubeletctl
 chmod +x kubeletctl
 
