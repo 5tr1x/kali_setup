@@ -105,7 +105,6 @@ jadx
 radare2
 ghidra
 netexec
-crackmapexec
 docker-compose
 python3-impacket
 certipy-ad
@@ -268,6 +267,11 @@ cd ..
 git clone https://github.com/strayge/pylnk
 cd pylnk/
 python3 setup.py install
+cd ..
+
+git clone https://github.com/fortra/impacket
+cd impacket/
+pip3 install .
 cd ..
 
 mkdir -p bloodhound/collectors
