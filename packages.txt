@@ -93,7 +93,6 @@ jadx
 radare2
 ghidra
 netexec
-crackmapexec
 docker-compose
 python3-impacket
 certipy-ad
@@ -171,10 +170,11 @@ trufflehog
 unicorn
 pkinittools
 donut-maker
-smbcheck
-password-permutator
 byp4xx
 rusthound-ce
+impacket
+smbcheck
+password-permutator
 
 
 
