@@ -6,6 +6,7 @@ nmap
 hydra
 responder
 wireshark
+golang
 sqlmap
 wfuzz
 gobuster
