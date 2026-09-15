@@ -175,6 +175,7 @@ donut-maker
 byp4xx
 rusthound-ce
 impacket
+timeroast
 smbcheck
 password-permutator
 
