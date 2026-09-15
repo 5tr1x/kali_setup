@@ -374,6 +374,9 @@ chmod +x gettgtpkinit.py
 wget https://github.com/bvcyber/Timeroast/raw/refs/heads/main/timeroast.py
 chmod +x timeroast.py
 
+wget https://github.com/aniqfakhrul/CVE-2026-54121/raw/refs/heads/main/certighost.py
+chmod +x certighost.py
+
 wget https://raw.githubusercontent.com/roughiz/lfito_rce/master/lfito_rce.py
 mv lfito_rce.py lfi2rce.py
 chmod +x lfi2rce.py
