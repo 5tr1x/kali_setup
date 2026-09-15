@@ -176,6 +176,7 @@ byp4xx
 rusthound-ce
 impacket
 timeroast
+certighost
 smbcheck
 password-permutator
 
