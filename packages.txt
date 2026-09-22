@@ -177,6 +177,7 @@ rusthound-ce
 impacket
 timeroast
 certighost
+pbkdf2-to-hashcat
 smbcheck
 password-permutator
 
