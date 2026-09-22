@@ -327,6 +327,10 @@ wget https://github.com/4n4nk3/Wordlister/raw/master/wordlister.py
 mv wordlister.py wordlister
 chmod +x wordlister
 
+wget https://github.com/r3vpwnx/pbkdf2-hashcat-converter/raw/refs/heads/main/pbkdf2-to-hashcat.py
+mv pbkdf2-to-hashcat.py pbkdf2-to-hashcat
+chmod +x pbkdf2-to-hashcat
+
 wget https://github.com/manulqwerty/Evil-WinRAR-Gen/raw/master/evilWinRAR.py
 mv evilWinRAR.py evilWinRAR
 chmod +x evilWinRAR
