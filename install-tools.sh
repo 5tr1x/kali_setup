@@ -275,6 +275,24 @@ cd impacket/
 pip3 install .
 cd ..
 
+mkdir ligolo-ng
+cd ligolo-ng/
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.9.1/ligolo-ng_proxy_0.9.1_linux_amd64.tar.gz
+tar -xzf ligolo-ng_proxy_0.9.1_linux_amd64.tar.gz
+rm README.md LICENSE ligolo-ng_proxy_0.9.1_linux_amd64.tar.gz
+mv proxy ligolo-proxy
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.9.1/ligolo-ng_agent_0.9.1_linux_amd64.tar.gz
+tar -xzf ligolo-ng_agent_0.9.1_linux_amd64.tar.gz
+rm README.md LICENSE ligolo-ng_agent_0.9.1_linux_amd64.tar.gz
+mv agent ligolo-agent
+wget https://github.com/nicocha30/ligolo-ng/releases/download/v0.9.1/ligolo-ng_agent_0.9.1_windows_amd64.zip
+unzip ligolo-ng_agent_0.9.1_windows_amd64.zip
+rm README.md LICENSE ligolo-ng_agent_0.9.1_windows_amd64.zip
+mv agent.exe ligolo-agent.exe
+chmod 644 ligolo-agent.exe
+chown root:root *
+cd ..
+
 mkdir -p bloodhound/collectors
 cd bloodhound/
 wget https://github.com/SpecterOps/bloodhound-cli/releases/latest/download/bloodhound-cli-linux-amd64.tar.gz
