@@ -341,6 +341,10 @@ wget https://github.com/hausec/ProxyLogon/raw/main/proxylogon.py -O pl.py
 echo '#!/usr/bin/python3' | cat - pl.py > proxylogon.py && rm pl.py
 chmod +x proxylogon.py
 
+wget https://github.com/sensepost/susinternals/raw/refs/heads/main/psexecsvc.py -O p.py
+echo '#!/usr/bin/python3' | cat - p.py > psexecsvc.py && rm p.py
+chmod +x psexecsvc.py
+
 wget https://github.com/4n4nk3/Wordlister/raw/master/wordlister.py
 mv wordlister.py wordlister
 chmod +x wordlister
