@@ -179,6 +179,7 @@ timeroast
 certighost
 pbkdf2-to-hashcat
 ligolo-ng
+psexecsvc
 smbcheck
 password-permutator
 
