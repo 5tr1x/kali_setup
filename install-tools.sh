@@ -110,6 +110,7 @@ python3-impacket
 evil-winrm-py
 certipy-ad
 bloodyad
+coercer
 
 )
 
